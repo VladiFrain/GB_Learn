@@ -15,19 +15,29 @@ Console.WriteLine(result);
 
 int sumDigits(int num)
 {
-    int count = 0;
-    int temp = num;
-    while (temp > 0)
+    return GetSum(num, GetLength(num));
+}
+
+int GetLength(int num)
+{
+    int length = 0;
+    while (num > 0)
     {
-        temp /= 10;
-        count++;
+        num /= 10;
+        length++;
     }
 
+    return length;
+}
+
+int GetSum(int num, int length)
+{
     int result = 0;
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i < length; i++)
     {
         result += num % 10;
-        num /= 10;
+        num /= 10;        
     }
+
     return result;
 }

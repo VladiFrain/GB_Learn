@@ -21,7 +21,6 @@ int RaiseToExtent(int num, int extent)
     for (int i = extent; i > 0; i--)
     {
         result *= num;
-        extent--;        
     }
     return result;
 }
