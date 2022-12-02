@@ -8,21 +8,35 @@ Console.WriteLine(GetDiffMaxMin(arr));
 
 double GetDiffMaxMin(double[] arr)
 {
+    return GetMax(arr) - GetMin(arr);
+}
+
+double GetMax(double[] arr)
+{
     double max = arr[0];
-    double min = arr[0];
-    for (int i = 1; i < arr.Length; i++)
+    foreach (var item in arr)
     {
-        if (max < arr[i])
+        if (max < item)
         {
-            max = arr[i];
-        }
-        if (min > arr[i])
-        {
-            min = arr[i];
+            max = item;
         }
     }
 
-    return max - min;
+    return max;
+}
+
+double GetMin(double[] arr)
+{
+    double min = arr[0];
+    foreach (var item in arr)
+    {
+        if (min > item)
+        {
+            min = item;
+        }
+    }
+    
+    return min;
 }
 
 double[] FillArray(int length) 

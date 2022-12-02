@@ -5,17 +5,14 @@
 
 int[] arr = FillArray(12);
 PrintArray(arr);
-Console.WriteLine(GetSumOddElem(arr));
+Console.WriteLine(GetSumInOddPos(arr));
 
-int GetSumOddElem(int[] arr)
+int GetSumInOddPos(int[] arr)
 {
     int sum = 0;
-    foreach (var item in arr)
+    for (int i = 1; i < arr.Length; i += 2)
     {
-        if (item % 2 != 0)
-        {
-            sum += item;
-        }
+        sum += arr[i];
     }
 
     return sum;
