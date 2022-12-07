@@ -6,9 +6,9 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-FindArray(FillArray(3, 4), 8);
+FindDataInArray(FillArray(3, 4), 8);
 
-void FindArray(int[,] arr, int num)
+void FindDataInArray(int[,] arr, int num)
 {
     int find = 0;
     for (int i = 0; i < arr.GetLength(0); i++)
@@ -17,7 +17,7 @@ void FindArray(int[,] arr, int num)
         {
             if (arr[i, j] == num)
             {
-                Console.WriteLine($"{arr[i, j]}");
+                Console.WriteLine($"{num} находиться по адресу: [{i}, {j}]");
                 find++;
             }            
         }
