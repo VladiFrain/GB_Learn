@@ -70,7 +70,7 @@ public class seminar1 {
 
     /**
      * 3)(*) https://leetcode.com/problems/add-binary/
-     * Двоичный калькулятор
+     * Двоичное сложение
      */
     public static int sumBinary(int one, int two) {
         int sum = 0;
