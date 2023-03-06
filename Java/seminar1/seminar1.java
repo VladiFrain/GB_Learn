@@ -53,19 +53,18 @@ public class seminar1 {
         System.out.print("Введите 1 элемент: ");
         int one = sc.nextInt();
         int count = 0;
-        while (true) {
+        while (one != 0) {
             System.out.print("Введите следующий элемент: ");
             int two = sc.nextInt();
-            if (two == 0) {
-                sc.close();
-                return count;
-            } else {
+            if (two != 0) {
                 if (one > 0 && two < 0) {
                     count += one;
                 }
-                one = two;
             }
+            one = two;
         }
+        sc.close();
+        return count;
     }
 
     /**
