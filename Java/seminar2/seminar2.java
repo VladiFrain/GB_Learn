@@ -3,6 +3,8 @@ package seminar2;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+import seminar2.model.Vector;
+
 // import seminar2.model.Vector;
 
 public class seminar2 {
