@@ -1,12 +1,12 @@
 package OOP.seminar4;
 
-import org.example.homework.h10oop.controller.StudentController;
-import org.example.homework.h10oop.data.Student;
-import org.example.homework.h10oop.data.Teacher;
-import org.example.homework.h10oop.data.UserComparator;
-import org.example.homework.h10oop.service.TeacherService;
-import org.example.homework.h10oop.view.StudentView;
-import org.example.homework.h10oop.view.TeacherView;
+import OOP.seminar4.controller.StudentController;
+import OOP.seminar4.data.Student;
+import OOP.seminar4.data.Teacher;
+import OOP.seminar4.data.UserComparator;
+import OOP.seminar4.service.TeacherService;
+import OOP.seminar4.view.StudentView;
+import OOP.seminar4.view.TeacherView;
 
 import java.time.LocalDate;
 import java.util.List;

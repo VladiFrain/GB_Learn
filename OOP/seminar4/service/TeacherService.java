@@ -1,7 +1,7 @@
 package OOP.seminar4.service;
 
 
-import org.example.homework.h10oop.data.Teacher;
+import OOP.seminar4.data.Teacher;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

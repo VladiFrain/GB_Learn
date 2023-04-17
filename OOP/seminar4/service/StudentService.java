@@ -2,7 +2,7 @@ package OOP.seminar4.service;
 
 
 
-import org.example.homework.h10oop.data.Student;
+import OOP.seminar4.data.Student;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

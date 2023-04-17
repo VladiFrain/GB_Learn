@@ -1,12 +1,12 @@
 package OOP.seminar4.controller;
 
 
-import org.example.homework.h10oop.data.Student;
-import org.example.homework.h10oop.data.Teacher;
-import org.example.homework.h10oop.data.User;
-import org.example.homework.h10oop.service.StudentGroupService;
-import org.example.homework.h10oop.service.StudentService;
-import org.example.homework.h10oop.view.StudentView;
+import OOP.seminar4.data.Student;
+import OOP.seminar4.data.Teacher;
+import OOP.seminar4.data.User;
+import OOP.seminar4.service.StudentGroupService;
+import OOP.seminar4.service.StudentService;
+import OOP.seminar4.view.StudentView;
 
 import java.time.LocalDate;
 import java.util.Collections;

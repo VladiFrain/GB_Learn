@@ -2,10 +2,10 @@ package OOP.seminar4.service;
 
 
 
-import org.example.homework.h10oop.data.Student;
-import org.example.homework.h10oop.data.StudentGroup;
-import org.example.homework.h10oop.data.Teacher;
-import org.example.homework.h10oop.data.UserComparator;
+import OOP.seminar4.data.Student;
+import OOP.seminar4.data.StudentGroup;
+import OOP.seminar4.data.Teacher;
+import OOP.seminar4.data.UserComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

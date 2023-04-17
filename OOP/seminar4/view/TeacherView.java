@@ -2,8 +2,8 @@ package OOP.seminar4.view;
 
 
 
-import org.example.homework.h10oop.data.Teacher;
-import org.example.homework.h10oop.data.User;
+import OOP.seminar4.data.Teacher;
+import OOP.seminar4.data.User;
 
 import java.util.List;
 

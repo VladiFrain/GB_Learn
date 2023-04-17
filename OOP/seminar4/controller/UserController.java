@@ -2,7 +2,7 @@ package OOP.seminar4.controller;
 
 
 
-import org.example.homework.h10oop.data.User;
+import OOP.seminar4.data.User;
 
 import java.time.LocalDate;
 
